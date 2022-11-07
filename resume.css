@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+header {
+    font-size: 80px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(252, 92, 34);
+    display: flex;
+    
+}
+body{
+    background-color:rgb(252, 174, 29);
+}
+.About{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    font-family:'Rubik Mono One', sans-serif ;
+    background-color: rgb(64, 190, 91);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid  rgb(64, 190, 91);
+    position: relative;
+    z-index: 1;
+   
+  
+}
+.About:hover{
+    box-shadow: inset 300px 000 rgb(253, 253, 70);
+    border: rgb(253, 253, 70);
+    cursor: pointer;
+    color: white;
+}
+.Home{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: black;
+    background-color: rgb(252, 174, 29);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(252, 174, 29);
+    position: relative;
+    z-index: 1;
+    
+  }
+  .Home:hover{
+    box-shadow: inset 300px 000 rgb(252, 174, 29);
+    border: rgb(252, 174, 29);
+    cursor: pointer;
+    color: black;
+  }
+
+.Portfolio{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: black;
+  background-color:  rgb(64, 161, 240);;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 161, 240); ;
+  position: relative;
+  z-index: 1;
+}
+.Portfolio:hover{
+  box-shadow: inset 300px 000 rgb(252, 92, 34);
+  border-color: rgb(252, 92, 34);
+  cursor: pointer;
+  color: white; 
+} 
+.Resume{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(64, 190, 91);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 190, 91);
+  position: relative;
+  z-index: 1;
+}
+.Resume:hover{
+  box-shadow: inset 300px 000 rgb(252, 92, 34);
+  border: rgb(252, 92, 34);
+  cursor: pointer;
+  color: black;
+}
+.Contact{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color:  rgb(64, 161, 240);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 161, 240);
+  position: relative;
+  z-index: 1;
+}
+.Contact:hover{
+  box-shadow: inset 300px 000 rgb(253, 253, 70);
+  border: rgb(253, 253, 70) ;
+  cursor: pointer;
+  color: black;
+}
+div a{
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+  }
+  div a:hover{
+    color: black;
+  
+  
+  
+  
+  }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+#resume  a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+font-family:'Rubik Mono One', sans-serif ;
+text-align: center;
+color: rgb(252, 92, 34);
+}
+#resume2 {
+   display: flex;
+   flex-direction: row;
+    
+}
+#resume2 button{
+    margin-left: 350px;
+    margin-top: 380px;
+}
+.download{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(252, 92, 34);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid  rgb(252, 92, 34);
+    position: relative;
+    z-index: 1;
+  }
+  .download:hover{
+    box-shadow: inset 300px 000 #F14FBF;
+    border: #F14FBF;
+    cursor: pointer;
+    color: black;
+  }

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body{
+   background-color: rgb(252, 174, 29);
+    background-repeat:no-repeat;
+    background-size: 800px;
+    background-position-x: center;
+    
+    
+
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+header h1{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  margin-right: 375px;
+  margin-top: 400px;
+  font-family:'Rubik Mono One', sans-serif; 
+  color: black;
+}
+
+
+header img{
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 150px;
+  margin-right: 150px;
+  border: 10px;
+  border-color:rgb(252, 92, 34);
+  border-style: solid;
+  border-radius: 700px;
+  font-size: larger;
+
+}
+
+
+
+div{
+  font-size:xx-large;
+  font-weight: 60px;
+  font-family: 'Courier New', Courier, monospace;
+}
+div a{
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: white;
+}
+div a:hover{
+  color: black;
+
+
+
+
+}
+footer{
+  background-color: hotpink;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+ width: 100%;
+
+}
+.Home{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(252, 174, 29);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid rgb(252, 174, 29) ;
+  position: relative;
+  z-index: 1;
+  
+}
+.Home:hover{
+  box-shadow: inset 300px 000 rgb(252, 174, 29);
+  border: rgb(252, 174, 29);
+  cursor: pointer;
+  color: black;
+}
+.About{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(64, 190, 91);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid rgb(64, 190, 91);
+  position: relative;
+  z-index: 1;
+}
+.About:hover{
+  box-shadow: inset 300px 000 rgb(253, 253, 70);
+  border-color: rgb(253, 253, 70);
+  cursor: pointer;
+  color: black;
+} 
+
+.Portfolio{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(64, 161, 240);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 161, 240);
+  position: relative;
+  z-index: 1;
+}
+.Portfolio:hover{
+  box-shadow: inset 300px 000 rgb(252, 92, 34);
+  border-color: rgb(252, 92, 34);
+  cursor: pointer;
+  color: black;
+} 
+.Resume{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color:  rgb(64, 190, 91);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 190, 91);
+  position: relative;
+  z-index: 1;
+}
+.Resume:hover{
+  box-shadow: inset 300px 000 rgb(252, 92, 34);
+  border: rgb(252, 92, 34);
+  cursor: pointer;
+  color: black;
+}
+.Contact{
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color:  rgb(64, 161, 240);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid  rgb(64, 161, 240);
+  position: relative;
+  z-index: 1;
+}
+.Contact:hover{
+  box-shadow: inset 300px 000 rgb(253, 253, 70);
+  border: rgb(253, 253, 70);
+  cursor: pointer;
+  color: black;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#content{
+  display:flex;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 100px;
+  
+}
+#colOne{
+  font-size: large;
+  padding-right: 20px;
+
+}
+#colTwo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+border-style:solid ;
+border-color: white;
+border-width: 10px;}
+
+ table .left{
+  text-align: left;
+  padding-right: 60px;
+  padding-left: 20px;
+  font-size: large;
+  color: black;
+  border-collapse: collapse;
+}
+table .right{
+  font-size: large;
+  text-align: left;
+  padding-right: 20px;
+  border-collapse: collapse;
+  border-top-color: rgb(252, 174, 29);
+  border-bottom-color: rgb(252, 174, 29);
+  border-right-color: rgb(252, 174, 29);
+  color:black ;
+  border-collapse: collapse;
+  padding-left: 60px;
+}
+table #table{
+  text-align: center;
+  
+}
+#favorites{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ text-align: center;
+ padding: 40px;
+ 
+ color: black;
+ font-family: 'Rubik Mono One', sans-serif;
+ font-weight: lighter;
+ margin-left: 25%;
+ margin-right: 25%;
+ 
+
+  
+}
+table{
+  border-color: rgb(255, 68, 183);
+}
+table td{
+  border: 2px;
+  
+}
+
+table{
+  border-collapse: collapse;
+  
+
+}
+#title{
+  font-size: xxx-large;
+  color: #F14FBF;
+}
+h2{
+  font-size: xxx-large;
+  color: rgb(64, 161, 240);
+  font-family: 'Rubik Mono One', sans-serif;
+}
+p{
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+}
+h3{
+  font-family: 'Rubik Mono One', sans-serif;
+  color: rgb(64, 190, 91);
+}
+ul li{
+  font-size: medium;
+  font-family:'Rubik Mono One', sans-serif;
+  list-style-type:square;
+  color: white;
+}
+header h1{
+  color: rgb(252, 92, 34);
+}

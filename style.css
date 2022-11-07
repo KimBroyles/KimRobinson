@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+    color: orange;
+    font-size:xx-large;
+    font-weight: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    position: absolute;
+    background-color: blue;
+    height: 60px;
+    
+
+}
+
+body{
+    height: 30px;
+    background-repeat:no-repeat;
+    background-size: 800px;
+    background-position-x: center;
+    background-color: rgb(252, 174, 29);
+    
+    
+    
+    
+
+ 
+    
+    
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+div a:hover{
+    color: black;
+}
+
+nav a{
+    color: rgb(110, 194, 110);
+    list-style: none;
+    border-color: rgb(110, 194, 110);
+    border-bottom-style: solid;
+    border-width: 1px;
+    
+    
+
+    
+}
+nav a:link{
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+#about{
+    background-color: purple;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+*{
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 4px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    text-align: center;
+    min-height: 100vh ;
+
+}
+
+.About{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(64, 190, 91);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(64, 190, 91);
+    position: relative;
+    z-index: 1;
+    
+}
+.About:hover{
+    box-shadow: inset 300px 000 rgb(253, 253, 70);
+    border: rgb(253, 253, 70);
+    cursor: pointer;
+    color: black;
+}
+.Goals{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color:rgb(64, 161, 240);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(64, 161, 240);
+    position: relative;
+    z-index: 1;
+}
+.Goals:hover{
+    box-shadow: inset 300px 000 rgb(252, 92, 34);
+    border-color: rgb(252, 92, 34);
+    cursor: pointer;
+    color: black;
+} 
+.Portfolio{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(64, 190, 91);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(64, 190, 91);
+    position: relative;
+    z-index: 1;
+}
+.Portfolio:hover{
+    box-shadow: inset 300px 000 rgb(252, 92, 34);
+    border: rgb(252, 92, 34);
+    cursor: pointer;
+    color: black;
+}
+.Resume{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(64, 161, 240);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(64, 161, 240);
+    position: relative;
+    z-index: 1;
+}
+.Resume:hover{
+    box-shadow: inset 300px 000 rgb(253, 253, 70);
+    border: rgb(253, 253, 70) ;
+    cursor: pointer;
+    color: black;
+}
+footer {
+    background-color: hotpink;
+}
